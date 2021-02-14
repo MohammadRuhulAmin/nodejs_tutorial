@@ -43,3 +43,38 @@ pedro.on('name',function(){
     console.log('name is : ' + pedro.name);
 });
 pedro.emit('name');
+
+class mypet extends EventEmitter{
+    getInfo(){
+        return "this is a pet information";
+    }
+}
+
+var pet = new mypet;
+pet.on('abc',function(){
+    console.log(pet.getInfo());
+});
+pet.emit('abc');
+
+
+class myHouse extends EventEmitter{
+
+    constructor(houseInfo){
+        super();
+        this._houseInfo = houseInfo;
+    }
+
+    get information(){
+        return "this is a beautiful house!";
+    }
+    
+
+    
+
+}
+
+
+var obj  = new myHouse('ifeltower');
+obj.on('whiteHouse',()=>{console.log("this is a good house!");});
+
+obj.emit('whiteHouse');
