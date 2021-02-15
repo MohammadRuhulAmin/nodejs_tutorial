@@ -23,3 +23,8 @@ fs.appendFile('example2.txt','some data is appented',(err)=>{
     if(err)console.log(err);
     else console.log('successfully appended!');
 });
+
+fs.unlink('example2.txt',function(err){
+    if(err)console.log(err);
+    else console.log('deleted successfully!');
+})
