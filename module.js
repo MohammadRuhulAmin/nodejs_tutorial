@@ -27,4 +27,4 @@ fs.appendFile('example2.txt','some data is appented',(err)=>{
 fs.unlink('example2.txt',function(err){
     if(err)console.log(err);
     else console.log('deleted successfully!');
-})
+});
