@@ -13,3 +13,8 @@ fs.writeFile('example.txt',"this is an example",function(error){
         });
     }
 });
+
+fs.rename('example.txt','example2.txt',function(error){
+    if(error)console.log(error);
+    else console.log('renamed!');
+})
