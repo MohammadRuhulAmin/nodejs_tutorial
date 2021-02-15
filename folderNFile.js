@@ -17,3 +17,16 @@ fs.rmdir('About',(err)=>{
     if(err)console.log(err);
     else console.log('deleted');
 });
+fs.readdir('readdir',(err,files)=>{
+    if(err)console.log(err);
+    else console.log(files);
+});
+fs.readdir('readdir',(err,files)=>{
+    if(err)console.log(err);
+   for(let file of files){
+       fs.unlink('./readdir/'+file,(err)=>{
+        if(err)console.log(err);
+        else console.log(file +" deleted successfully");
+       });
+   }
+})
