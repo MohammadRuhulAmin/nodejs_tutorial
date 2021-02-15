@@ -17,4 +17,9 @@ fs.writeFile('example.txt',"this is an example",function(error){
 fs.rename('example.txt','example2.txt',function(error){
     if(error)console.log(error);
     else console.log('opened');
-})
+});
+
+fs.appendFile('example2.txt','some data is appented',(err)=>{
+    if(err)console.log(err);
+    else console.log('successfully appended!');
+});
