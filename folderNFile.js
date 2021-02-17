@@ -29,4 +29,4 @@ fs.readdir('readdir',(err,files)=>{
         else console.log(file +" deleted successfully");
        });
    }
-})
+});
