@@ -1,0 +1,19 @@
+{
+  "name": "lnodejs",
+  "version": "1.0.0",
+  "description": "this is a tutorial",
+  "main": "addFileToHttp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TNTx1995/nodejs_tutorial.git"
+  },
+  "author": "ruhul amin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TNTx1995/nodejs_tutorial/issues"
+  },
+  "homepage": "https://github.com/TNTx1995/nodejs_tutorial#readme"
+}

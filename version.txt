@@ -1,0 +1,11 @@
+"^4.17.12"
+^ carrate sign
+mejor_update.minor_update.patch_update
+
+mejor update : there is a braking change !! (5 will not be as same as 4)
+minor update : some function is added 
+patch update : refers to fix some bug!! 
+carrate sign : refers 4.x.x 
+
+tilde sign   : refers 4.17.x (x refers change )
+only 4.17.11 if stays refers that the version is static and dont change anything !
